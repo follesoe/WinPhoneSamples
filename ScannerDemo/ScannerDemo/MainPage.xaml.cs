@@ -38,6 +38,7 @@ namespace ScannerDemo
             _previewVideo.SetSource(_photoCamera);
 
             CameraButtons.ShutterKeyHalfPressed += (o, arg) => _photoCamera.Focus();
+
             base.OnNavigatedTo(e);
         }
 
